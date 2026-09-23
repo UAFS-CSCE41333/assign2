@@ -14,6 +14,6 @@ sudo mysql < webapicrud.sql
 | PUT | /api/users/:id | **U**pdate user | "{ ""username"", ""lastname"", ""firstname"", ""passwd"", ""email"", ""urole"" }" |
 | DELETE | /api/users/:id | **D**elete user | None |
 
-Instructions
+### Instructions
 
 Implement JSON Web Token Authentication for this Web API.  For the JWT Request(Login), authenticate the username and password with the Users Table.  Verify that all of your routes require authentication and that they work correctly using Bruno.
