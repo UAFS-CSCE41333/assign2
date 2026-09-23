@@ -1,4 +1,4 @@
-## CSCE 41333: Web API - CRUD Example (NodeJS/Express/MySQL2)
+## CSCE 41333: Assignment Two: JWT Secured Web API
 
 Create MySQL Database
 ```
@@ -13,3 +13,7 @@ sudo mysql < webapicrud.sql
 | POST | /api/users | **C**reate user | "{ ""username"", ""lastname"", ""firstname"", ""passwd"", ""email"", ""urole"" }" |
 | PUT | /api/users/:id | **U**pdate user | "{ ""username"", ""lastname"", ""firstname"", ""passwd"", ""email"", ""urole"" }" |
 | DELETE | /api/users/:id | **D**elete user | None |
+
+Instructions
+
+Implement JSON Web Token Authentication for this Web API.  For the JWT Request(Login), authenticate the username and password with the Users Table.  Verify that all of your routes require authentication and that they work correctly using Bruno.
